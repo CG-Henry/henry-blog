@@ -1,0 +1,37 @@
+{
+    "name": "your-name-app",
+    "version": "0.1.0",
+    "description": "Descripton your webapp",
+    "scripts": {
+        "dev": "node_modules/.bin/vuepress dev src",
+        "build": "node_modules/.bin/vuepress build src"
+    },
+    "keywords": [
+        "vuepress",
+        "vuepress-theme",
+        "site",
+        "blog",
+        "theme-ktquez",
+        "markdown",
+        "static",
+        "vuejs"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "vuepress": "^0.14.2",
+        "standard-version": "^4.4.0"
+    },
+    "dependencies": {
+        "carbon-grid": "^1.1.2",
+        "elevator.js": "^1.0.1",
+        "fontfaceobserver": "^2.0.13",
+        "get-youtube-id": "^1.0.0",
+        "intersection-observer": "^0.5.0",
+        "mappet": "^4.0.0",
+        "nprogress": "^0.2.0",
+        "time-ago": "^0.2.1",
+        "vue-announcer": "^1.0.2",
+        "vue-disqus": "^3.0.4",
+        "vue-global-events": "^1.0.3"
+    }
+}
