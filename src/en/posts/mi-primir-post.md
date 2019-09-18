@@ -1,7 +1,7 @@
 ---
 view: post
 layout: post                    # Only in unique we use the "layout: post"
-lang: es                        # Lang is required
+lang: en                        # Lang is required
 author: ktquez
 title: Mi primer post
 description: 

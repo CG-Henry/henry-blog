@@ -21,8 +21,9 @@
           <router-link :to="item.path"
                        :aria-labelledby="`sr-link-post-${item.key}`">
             <responsive-picture :coverName="item.coverName">
+              <!-- :src="`/blog${item.coverName},w_${lastBreakpoint}.${extension}`" -->
               <img class="card-cover__image card-cover__image--top cover"
-                   :src="`/blog${item.coverName},w_${lastBreakpoint}.${extension}`"
+                   :src="`/blog${item.coverName}.${extension}`"
                    :title="item.coverAlt"
                    :alt="item.coverAlt">
             </responsive-picture>
@@ -131,9 +132,7 @@ export default {
     },
     getSideImage(coverName) {
       if (this.$themeConfig.responsive.active) {
-        return `${coverName},w_${this.$themeConfig.responsive.breakpoints[0]}.${
-          this.extension
-        }`;
+        return `/blog${coverName}.${this.extension}`;
       }
       return `${coverName}.${this.extension}`;
     }

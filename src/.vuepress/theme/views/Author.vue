@@ -12,7 +12,7 @@
       </div>
       <div class="column xs-100 sm-80">
         <h1 class="page-header__title author__title">
-          <span class="meta-text meta-text--primary">{{ $t('all_posts_author') }}</span>
+          <span class="meta-text meta-text--primary">{{ $t('博客作者') }}</span>
           <br>
           {{ $page.frontmatter.name }} ({{ amountPostsAuthor }})
         </h1>
@@ -21,7 +21,7 @@
           <span class="icon author-joined__icon">enter</span>
           <time-provider type="ago" :date="$page.frontmatter.created_at">
             <span class="author-joined__text" slot-scope="{ time }">
-              {{ $t('joined') }} {{ time }}
+              {{ $t('joined') }} 3 年
             </span>
           </time-provider>
         </div>

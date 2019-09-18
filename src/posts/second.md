@@ -7,13 +7,16 @@ title: 我的日志
 description: 
 excerpt: 
 cover: true                          # Leave false if the post does not have cover image, if there is set to true
-coverAlt: 测试一下
+coverAlt: 封面图
 coverExt: png
 demo: 
 categories:
   - log
 tags: 
   - log
+  - js
+  - vuejs
+  - es6
 created_at: 2019-07-23 17:55
 updated_at: 2019-07-23 17:55
 meta:

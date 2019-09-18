@@ -1,10 +1,10 @@
 ---
 view: author
-lang: es
+lang: en
 title: Artículos de
 description: 
 name: Alan Ktquez
-nickname: ktquez
+nickname: henry
 role: Desarrollador web
 avatar: /autores/ktquez.png
 created_at: 2018-08-22

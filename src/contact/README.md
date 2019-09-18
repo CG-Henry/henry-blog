@@ -1,6 +1,6 @@
 ---
 view: page
-title: Happy to be here and looking forward to a chat
+title: 联系方式
 description: 
 excerpt: 
 meta:
@@ -9,14 +9,13 @@ meta:
   - name: twitter:image
     content: /image-social-share.png
 ---
-
-My contact form (Ideal for using a typeform iframe)
-
-<!-- 
-<div class="typeform typeform--fix">
-  <lazy-load tag="iframe" :data="{ src: 'https://MY_TYPEFORM_URL', height: 1000 }" />
-</div> 
-
-See more in https://github.com/ktquez/vuepress-theme-ktquez#lazy-load
--->
-
+<!-- <div class="typeform typeform--fix">
+  <lazy-load tag="iframe" :data="{ src: 'https://www.baidu.com', height: 1000 }" />
+</div>
+ -->
+## 邮箱
+henrycgh@outlook.com
+## 电话
+156-9556-3570
+## 个人博客
+[https://henrycgh.github.io/blog/](https://henrycgh.github.io/blog/)

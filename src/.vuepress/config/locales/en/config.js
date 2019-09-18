@@ -1,67 +1,60 @@
-const ads = require('./ads')
+const ads = require('./ads');
 
 module.exports = {
-  languages: {
-    label: 'English',
-    shortname: 'EN'
-  },
-  translation: {
-    news_title: 'Receive our articles, videos and more directly in your inbox and stay up to date.',
-  },
-  ads,
-  logo: {
-    name: 'ktquez-play-logo',
-    ext: 'png',
-    alt: 'Logo in 3 colors in play format'
-  },
-  share: {
-    facebookCaption: '',
-    twitterVia: '',
-  },
-  newsletter: {
-    provider: 'mailchimp',
-    action: ''
-  },
-  copy: `2018 © MY_BLOG_NAME - 
+    languages: {
+        label: 'ENGLISH',
+        shortname: 'EN'
+    },
+    ads,
+    logo: {
+        name: 'blog/henry-blog-logo',
+        ext: 'png',
+        alt: 'Logo in 3 colors in play format'
+    },
+    share: {
+        facebookCaption: '',
+        twitterVia: ''
+    },
+    newsletter: {
+        provider: 'mailchimp',
+        action: ''
+    },
+    copy: `2018 © HenryCGH - 
         <a href="https://vuepress.vuejs.org/" rel="noopener" target="_blank">
           MADE WITH VUEPRESS
         </a>`,
-  footer: {
-    nav1: {
-      title: 'Ktquez Play',
-      items: [
-        {
-          label: 'ABOUT',
-          path: '/about/'
+    footer: {
+        nav1: {
+            title: 'Henry Blog',
+            items: [
+                {
+                    label: '关于我',
+                    path: '/en/about/'
+                },
+                {
+                    label: '分类',
+                    path: '/en/categories/'
+                },
+                {
+                    label: '联系方式',
+                    path: '/en/contact/'
+                }
+            ]
         },
-        {
-          label: 'CATEGORIES',
-          path: '/categories/'
-        },
-        {
-          label: 'CONTACT',
-          path: '/contact/'
+        nav2: {
+            title: '社区',
+            items: [
+                {
+                    label: '知乎',
+                    link: 'https://www.zhihu.com/'
+                }
+            ]
         }
-      ]
     },
-    nav2: {
-      title: 'Community',
-      items: [
+    social: [
         {
-          label: 'FB GROUP',
-          link: 'https://www.facebook.com/groups/MY_GROUP'
+            name: 'github',
+            link: `https://github.com/HenryCGH`
         }
-      ]
-    }
-  },
-  social: [
-    {
-      name: 'twitter',
-      link: `https://www.twitter.com/MY_TWITTER_NICKNAME`
-    },
-    {
-      name: 'github',
-      link: `https://www.github.com/MY_TWITTER_NICKNAME`
-    }
-  ]
-}
+    ]
+};

@@ -13,8 +13,6 @@ categories:
   - vuejs
 tags: 
   - vuejs
-  - vuepress
-  - static site
 created_at: 2018-08-22 09:00
 updated_at: 2018-08-22 09:00
 meta:                                 # If you have cover image

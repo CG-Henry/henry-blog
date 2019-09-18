@@ -1,12 +1,11 @@
 ---
 view: category
 lang: zh-CN
-order: 2      # Order of display in list categories
-top: false
-title: 我的日志
-description: 关于我的日志
-excerpt: 关于我的日志
-slug: log
+order: 4      # Order of display in list categories
+title: 面试
+description: 面试题
+excerpt: 面试题
+slug: interview
 meta:
   - property: og:image
     content: /blog/blog-background.jpg

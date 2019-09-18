@@ -1,6 +1,6 @@
 ---
 view: authors
-title: All authors of 
+title: 博客作者 
 description: 
 meta:
   - property: og:image

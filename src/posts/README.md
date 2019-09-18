@@ -1,6 +1,6 @@
 ---
 view: posts
-title: All posts of
+title: 全部博文
 description: 
 excerpt: 
 meta:

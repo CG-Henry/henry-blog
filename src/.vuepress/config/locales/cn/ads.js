@@ -1,6 +1,6 @@
 module.exports = [
     {
-        text: '简单测试',
+        text: '百度',
         link: `https://www.baidu.com`,
         image: {
             src: '/blog/general/web-development.png',
@@ -12,14 +12,14 @@ module.exports = [
         }
     },
     {
-        text: '我的GitHub',
-        link: `YOUR_AFFILIATE_LINK`,
+        text: 'GitHub',
+        link: `https://github.com/HenryCGH`,
         image: {
             src: '/blog/general/web-development.png',
             alt: 'Illustration of a user studying online'
         },
         by: {
-            text: 'udemy.com',
+            text: 'GitHub',
             link: `https://github.com/HenryCGH`
         }
     }

@@ -29,7 +29,7 @@
 
     <section v-else class="row posts-grid mt-30">
       <div class="column sm-50">
-        <h2>😔 {{ $t('no_category_posts') }}.</h2>
+        <h2>😔 {{ $t('很快会有更多该分类的文章') }}.</h2>
       </div>
     </section>
 

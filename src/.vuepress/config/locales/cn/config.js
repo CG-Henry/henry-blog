@@ -3,7 +3,7 @@ const ads = require('./ads');
 module.exports = {
     languages: {
         label: '中文',
-        shortname: 'CN'
+        shortname: '中文'
     },
     translation: {
         news_title: 'Receive our articles, videos and more directly in your inbox and stay up to date.',
@@ -18,6 +18,7 @@ module.exports = {
         turnoff_night_mode: '开灯',
         back_to_homepage: '返回主页',
         no_more_posts: '很快会有更多的文章',
+        no_category_posts: '很快会有更多该分类的文章',
         all_posts_author: '博文作者',
         share: '分享',
         author: '作者',
@@ -29,7 +30,9 @@ module.exports = {
         path_route_about: 'about',
         path_route_privacy: 'privacy',
         path_route_search: 'contact',
-        tags: '标签'
+        tags: '标签',
+        title_contact: '联系方式',
+        tip_contact: '***'
     },
     ads,
     logo: {

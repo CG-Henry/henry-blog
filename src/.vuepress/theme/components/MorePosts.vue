@@ -17,7 +17,7 @@
       <div v-if="posts.length" class="allposts-button">
         <router-link to="/posts/">
           <kt-button type="button" color="primary">
-            {{ $t('see_all_posts') }}
+            {{ $t('更多博文') }}
           </kt-button>
         </router-link>
       </div>

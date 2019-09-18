@@ -186,7 +186,7 @@
   left: -30px
   width: 472px
   height: 429px
-  background-image: url('/watermark-logo.png')
+  background-image: url('/blog/watermark-logo.png')
   background-size: cover
   background-repeat: no-repeat
   z-index: 5

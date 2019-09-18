@@ -4,7 +4,7 @@ const cn = require('./locales/cn/config');
 module.exports = {
     locales: {
         '/': cn,
-        '/en': en
+        '/en/': en
     },
     serviceWorker: {
         updatePopup: {
@@ -20,7 +20,7 @@ module.exports = {
     responsive: {
         active: true,
         ext: 'png',
-        breakpoints: [320, 427, 524, 680]
+        breakpoints: false
     },
     lazyLoad: {},
     share: {

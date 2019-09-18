@@ -1,7 +1,7 @@
 {
- "name": "NAME OF YOUR APP",
- "short_name": "SHORTNAME OF YOUR APP",
- "lang": "en",
+ "name": "Henry Blog",
+ "short_name": "Henry Blog",
+ "lang": "zh-CN",
  "theme_color": "#263647",
  "background_color": "#263647",
  "display": "standalone",
@@ -33,7 +33,7 @@
    "density": "2.0"
   },
   {
-   "src": "/favicon/android-icon-144x144.png",
+   "src": "/blog/favicon/android-icon-144x144.png",
    "sizes": "144x144",
    "type": "image\/png",
    "density": "3.0"

@@ -3,8 +3,8 @@ view: author
 lang: zh-CN
 title: Posts of
 description: 
-name: Cheng Henry
-nickname: Henry
+name: Cheng Henry123
+nickname: henry
 role: 前端工程师
 avatar: /blog/autores/henry.jpg
 created_at: 2016-10-27

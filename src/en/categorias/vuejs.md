@@ -1,6 +1,6 @@
 ---
 view: category
-lang: es
+lang: en
 order: 1
 top: true
 title: Vue.js
