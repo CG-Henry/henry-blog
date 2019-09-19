@@ -2,10 +2,10 @@
 view: category
 lang: zh-CN
 order: 5      # Order of display in list categories
-title: Es6
-description: Es6
+title: Html
+description: Html
 excerpt: 
-slug: es6
+slug: html
 meta:
   - property: og:image
     content: /blog/blog-background.jpg

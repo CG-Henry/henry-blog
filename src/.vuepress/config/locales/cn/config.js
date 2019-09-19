@@ -32,7 +32,9 @@ module.exports = {
         path_route_search: 'contact',
         tags: '标签',
         title_contact: '联系方式',
-        tip_contact: '***'
+        tip_contact: '***',
+        ph_search: '搜索',
+        no_search_results: '无搜索内容'
     },
     ads,
     logo: {

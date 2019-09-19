@@ -120,7 +120,7 @@
                     v-if="currentPost.excerpt">{{ currentPost.excerpt }}</h2>
               </div>
               <div class="post-content__table-contents"
-                   v-if="$page.headers">
+                   v-if="$page.headers&&$page.frontmatter.listnav">
                 <table-contents :headers="$page.headers" />
               </div>
               <div ref="content"

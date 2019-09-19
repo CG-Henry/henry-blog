@@ -13,20 +13,13 @@ module.exports = [
     // Microsoft
     ['meta', { name: 'application-name', content: `MY APP NAME` }],
     ['meta', { name: 'msapplication-TileColor', content: `MY COLOR THEME` }],
-    ['meta', { name: 'msapplication-config', content: '/blog/browserconfig.xml' }],
-    ['meta', { name: 'msapplication-square70x70logo', content: '/blog/favicon/ms-icon-70x70.png' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/blog/favicon/ms-icon-144x144.png' }],
-    ['meta', { name: 'msapplication-square150x150logo', content: '/blog/favicon/mstile-150x150.png' }],
-    ['meta', { name: 'msapplication-wide310x150logo', content: '/blog/favicon/ms-icon-310x310.png' }],
-
-    // Twitter
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:site', content: '@ktquez' }],
+    ['meta', { name: 'msapplication-config', content: 'https://henrycgh.github.io/blog/browserconfig.xml' }],
+    ['meta', { name: 'msapplication-square70x70logo', content: 'https://henrycgh.github.io/blog/favicon/ms-icon-70x70.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: 'https://henrycgh.github.io/blog/favicon/ms-icon-144x144.png' }],
+    ['meta', { name: 'msapplication-square150x150logo', content: 'https://henrycgh.github.io/blog/favicon/mstile-150x150.png' }],
+    ['meta', { name: 'msapplication-wide310x150logo', content: 'https://henrycgh.github.io/blog/favicon/ms-icon-310x310.png' }],
 
     // Facebook
-    ['meta', { property: 'fb:app_id', content: `MY FACEBOOK APP ID` }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:site_name', content: `MY SITE NAME` }],
     ['meta', { property: 'og:image:height', content: '1200' }],
     ['meta', { property: 'og:image:width', content: '360' }],
     ['meta', { property: 'og:image:type', content: 'image/png' }],
@@ -38,7 +31,7 @@ module.exports = [
     // Link
     ['link', { rel: 'publisher', href: `MY URL GOOGLE PLUS` }],
     ['link', { rel: 'author', href: `MY URL GOOGLE PLUS` }],
-    ['link', { rel: 'author', href: '/humans.txt' }],
+    ['link', { rel: 'author', href: 'https://henrycgh.github.io/blog/humans.txt' }],
     ['link', { rel: 'manifest', href: 'https://henrycgh.github.io/blog/manifest.json' }],
 
     ['link', { rel: 'apple-touch-icon', sizes: '57x57', href: 'https://henrycgh.github.io/blog/favicon/apple-icon-57x57.png' }],
@@ -51,18 +44,15 @@ module.exports = [
     ['link', { rel: 'apple-touch-icon', sizes: '152x152', href: 'https://henrycgh.github.io/blog/favicon/apple-icon-152x152.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: 'https://henrycgh.github.io/blog/favicon/apple-icon-180x180.png' }],
 
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon/android-icon-192x192.png', sizes: '192x192' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon/favicon-96x96.png', sizes: '96x96' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon/favicon-32x32.png', sizes: '32x32' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon/favicon-16x16.png', sizes: '16x16' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://henrycgh.github.io/blog/favicon/android-icon-192x192.png', sizes: '192x192' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://henrycgh.github.io/blog/favicon/favicon-96x96.png', sizes: '96x96' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://henrycgh.github.io/blog/favicon/favicon-32x32.png', sizes: '32x32' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://henrycgh.github.io/blog/favicon/favicon-16x16.png', sizes: '16x16' }],
 
-    ['link', { rel: 'mask-icon', href: '/favicon/safari-pinned-tab.svg', color: '#ff5733' }],
-    ['link', { rel: 'shortcut icon', href: '/favicon/favicon.ico' }],
+    ['link', { rel: 'mask-icon', href: 'https://henrycgh.github.io/blog/favicon/safari-pinned-tab.svg', color: '#ff5733' }],
+    ['link', { rel: 'shortcut icon', href: 'https://henrycgh.github.io/blog/favicon/favicon.ico' }],
 
-    ['link', { rel: 'alternate', href: `https://MY_DOMAIN.COM/`, hreflang: 'en' }],
-    ['link', { rel: 'alternate', href: `https://MY_DOMAIN.COM/pt/`, hreflang: 'pt' }],
-    ['link', { rel: 'alternate', href: `https://MY_DOMAIN.COM/pt/`, hreflang: 'pt-br' }],
-    ['link', { rel: 'alternate', href: `https://MY_DOMAIN.COM/es/`, hreflang: 'es' }],
+    ['link', { rel: 'alternate', href: `https://MY_DOMAIN.COM/`, hreflang: 'zh-CN' }],
 
     // Prebrowsing
     ['link', { rel: 'preconnect', href: 'https://connect.facebook.net/' }],
