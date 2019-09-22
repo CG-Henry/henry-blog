@@ -1,7 +1,7 @@
 ---
 view: category
 lang: zh-CN
-order: 5      # Order of display in list categories
+order: 6      # Order of display in list categories
 title: Es6
 description: Es6
 excerpt: 
