@@ -1,8 +1,6 @@
 ---
 view: page
-title: 
-description: 
-excerpt: 
+title:
 ctaContact: true
 meta:
   - property: og:image
